@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4xxpaajbogdk"]
+
+[ext_resource type="Texture2D" uid="uid://b2ug02s1d7n88" path="res://assets/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Cactus/Cactus_1/Cactus_1.png" id="1_3uwn4"]
+[ext_resource type="PackedScene" uid="uid://c1a230skjekn6" path="res://scenes/killzone.tscn" id="2_iiia4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f17ax"]
+size = Vector2(12, 12)
+
+[node name="Cactus" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3uwn4")
+region_enabled = true
+region_rect = Rect2(29, 83, 14, 13)
+
+[node name="Killzone" parent="." instance=ExtResource("2_iiia4")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+shape = SubResource("RectangleShape2D_f17ax")
