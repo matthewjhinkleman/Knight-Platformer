@@ -18,7 +18,6 @@ config/icon="res://icon.svg"
 [autoload]
 
 Music="*res://scenes/music.tscn"
-GameManager="*res://scripts/game_manager.gd"
 
 [editor_plugins]
 

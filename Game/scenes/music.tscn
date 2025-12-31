@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://p5837wxh6fa0"]
 
-[ext_resource type="AudioStream" uid="uid://d0bg7th7fadby" path="res://assets/music/time_for_adventure.mp3" id="1_05ggv"]
+[ext_resource type="AudioStream" uid="uid://bio73bpuwgv5b" path="res://assets/music/DavidKBD - Pink Bloom Pack - 08 - Lost Spaceship's Signal.ogg" id="1_05ggv"]
 
 [node name="Music" type="AudioStreamPlayer2D"]
 stream = ExtResource("1_05ggv")
