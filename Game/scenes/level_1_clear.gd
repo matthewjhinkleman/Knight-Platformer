@@ -1,7 +1,6 @@
 extends Control
 
 @export var next_level: PackedScene
-@onready var total_coins: Label = $TotalCoins
 @onready var level_coins: Label = $LevelCoins
 
 # Called when the node enters the scene tree for the first time.
