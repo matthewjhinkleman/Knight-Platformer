@@ -8,5 +8,7 @@ func play_music(file: AudioStream):
 	
 	music.stream = file
 	music.play()
-	
-	
+
+func stop_music():
+	Music.play_music(preload("res://assets/sounds/hurt.wav"))
+	music.stop()

@@ -44,6 +44,7 @@ collision_mask = 2
 script = ExtResource("1_xlapc")
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
 one_shot = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
