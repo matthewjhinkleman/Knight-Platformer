@@ -19,3 +19,8 @@ func reset_level_score():
 func start_level():
 	level_score = 0
 	emit_signal("score_changed", total_score)
+
+func reset():
+	total_score = 0
+	level_score = 0
+	emit_signal("score_changed", total_score)

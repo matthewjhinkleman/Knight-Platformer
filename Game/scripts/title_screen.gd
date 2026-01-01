@@ -8,7 +8,7 @@ func _ready() -> void:
 
 func _process(_delta):
 	# Detect input to start game
-	if Input.is_action_just_pressed("ui_accept"):  # map "START" button
+	if Input.is_action_just_pressed("start"):
 		start_game()
 
 func start_game():
