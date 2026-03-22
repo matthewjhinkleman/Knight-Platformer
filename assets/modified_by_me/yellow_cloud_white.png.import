@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0rj1akyxgkum"
-path="res://.godot/imported/yellow_cloud_white.png-d6b2d9d03dd80652f4e81f2787be6b24.ctex"
+uid="uid://chx1yh4l8x606"
+path="res://.godot/imported/yellow_cloud_white.png-879d880a2785f49a7cea21f0dbf7414b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/yellow_cloud_white.png"
-dest_files=["res://.godot/imported/yellow_cloud_white.png-d6b2d9d03dd80652f4e81f2787be6b24.ctex"]
+source_file="res://assets/modified_by_me/yellow_cloud_white.png"
+dest_files=["res://.godot/imported/yellow_cloud_white.png-879d880a2785f49a7cea21f0dbf7414b.ctex"]
 
 [params]
 

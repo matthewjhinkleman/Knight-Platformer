@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cvwlmwhutf6wx" path="res://scripts/Level/level_3.gd" id="1_bradm"]
 [ext_resource type="PackedScene" uid="uid://c2vmbwumhf48a" path="res://scenes/hud.tscn" id="2_e40mx"]
 [ext_resource type="Texture2D" uid="uid://b0lta5aqtxjaa" path="res://assets/sprites/world_tileset.png" id="3_a114e"]
-[ext_resource type="Texture2D" uid="uid://c0rj1akyxgkum" path="res://assets/sprites/yellow_cloud_white.png" id="4_y1e0c"]
+[ext_resource type="Texture2D" uid="uid://c0rj1akyxgkum" path="res://assets/modified_by_me/yellow_cloud_white.png" id="4_y1e0c"]
 [ext_resource type="Texture2D" uid="uid://cje6rhks0snmr" path="res://assets/Terrain (16x16).png" id="5_rupth"]
 [ext_resource type="PackedScene" uid="uid://dn02o3cwidlgc" path="res://scenes/player.tscn" id="5_s4dsi"]
 [ext_resource type="PackedScene" uid="uid://c1a230skjekn6" path="res://scenes/Enemies & Traps/killzone.tscn" id="6_07lh1"]

@@ -1,9 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://co7463hxhemrg"]
+[gd_scene format=3 uid="uid://co7463hxhemrg"]
 
 [ext_resource type="Texture2D" uid="uid://b0lta5aqtxjaa" path="res://assets/sprites/world_tileset.png" id="1_atem8"]
 [ext_resource type="Script" uid="uid://3fbnca0c3xpo" path="res://scripts/title_screen.gd" id="1_uxtqq"]
-[ext_resource type="PackedScene" uid="uid://bl2r3sar4x2cp" path="res://scenes/level1.tscn" id="2_imref"]
-[ext_resource type="Texture2D" uid="uid://c0rj1akyxgkum" path="res://assets/sprites/yellow_cloud_white.png" id="2_iul6a"]
+[ext_resource type="PackedScene" uid="uid://bl2r3sar4x2cp" path="res://scenes/Levels/level1.tscn" id="2_imref"]
+[ext_resource type="Texture2D" uid="uid://c0rj1akyxgkum" path="res://assets/modified_by_me/yellow_cloud_white.png" id="2_iul6a"]
 [ext_resource type="FontFile" uid="uid://bsx4lqbekysws" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="3_iul6a"]
 [ext_resource type="FontFile" uid="uid://bomv61nevcs3s" path="res://assets/fonts/PixelOperator8.ttf" id="6_o5wcp"]
 [ext_resource type="Texture2D" uid="uid://dert63wsxdsx4" path="res://assets/sprites/knight.png" id="7_3s32a"]
@@ -215,7 +215,7 @@ animations = [{
 "speed": 10.0
 }]
 
-[node name="Control" type="Control"]
+[node name="Control" type="Control" unique_id=654575913]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -225,12 +225,12 @@ grow_vertical = 2
 script = ExtResource("1_uxtqq")
 first_level = ExtResource("2_imref")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1683040350]
 zoom = Vector2(1.75, 1.75)
 limit_enabled = false
 limit_smoothed = true
 
-[node name="TileMap2" type="TileMap" parent="."]
+[node name="TileMap2" type="TileMap" parent="." unique_id=928039112]
 tile_set = SubResource("TileSet_uxtqq")
 format = 2
 layer_0/name = "Background"
@@ -238,7 +238,7 @@ layer_0/tile_data = PackedInt32Array(-458767, 0, 10, -393231, 0, 11, -327695, 0,
 layer_1/name = "Level"
 layer_1/z_index = 1
 
-[node name="GameTitle" type="Label" parent="."]
+[node name="GameTitle" type="Label" parent="." unique_id=68125094]
 layout_mode = 0
 offset_left = -192.0
 offset_top = -125.0
@@ -251,7 +251,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2
 
-[node name="PressStart" type="Label" parent="."]
+[node name="PressStart" type="Label" parent="." unique_id=331426717]
 layout_mode = 0
 offset_left = -192.0
 offset_top = 11.0
@@ -264,7 +264,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1612001522]
 position = Vector2(0, -3.9999993)
 scale = Vector2(3.5, 3.5)
 sprite_frames = SubResource("SpriteFrames_jmeu6")
