@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://b0lta5aqtxjaa" path="res://assets/sprites/world_tileset.png" id="1_atem8"]
 [ext_resource type="Script" uid="uid://3fbnca0c3xpo" path="res://scripts/title_screen.gd" id="1_uxtqq"]
 [ext_resource type="PackedScene" uid="uid://bl2r3sar4x2cp" path="res://scenes/Levels/level1.tscn" id="2_imref"]
-[ext_resource type="Texture2D" uid="uid://c0rj1akyxgkum" path="res://assets/modified_by_me/yellow_cloud_white.png" id="2_iul6a"]
+[ext_resource type="Texture2D" uid="uid://chx1yh4l8x606" path="res://assets/modified_by_me/yellow_cloud_white.png" id="2_iul6a"]
 [ext_resource type="FontFile" uid="uid://bsx4lqbekysws" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="3_iul6a"]
 [ext_resource type="FontFile" uid="uid://bomv61nevcs3s" path="res://assets/fonts/PixelOperator8.ttf" id="6_o5wcp"]
 [ext_resource type="Texture2D" uid="uid://dert63wsxdsx4" path="res://assets/sprites/knight.png" id="7_3s32a"]
@@ -226,7 +226,7 @@ script = ExtResource("1_uxtqq")
 first_level = ExtResource("2_imref")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1683040350]
-zoom = Vector2(1.75, 1.75)
+zoom = Vector2(2.5, 2.5)
 limit_enabled = false
 limit_smoothed = true
 
