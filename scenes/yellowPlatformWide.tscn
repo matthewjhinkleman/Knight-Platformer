@@ -1,25 +1,25 @@
-[gd_scene format=3 uid="uid://dwgpu37ogtrkj"]
+[gd_scene format=3 uid="uid://dtidjbxixe8kl"]
 
-[ext_resource type="Texture2D" uid="uid://bq1k12g6ddukn" path="res://assets/sprites/platforms.png" id="1_nus4p"]
-[ext_resource type="Texture2D" uid="uid://dho3t2eyb70b1" path="res://assets/pixel_adventure/Fan/On (24x8).png" id="2_lhsdm"]
+[ext_resource type="Texture2D" uid="uid://bq1k12g6ddukn" path="res://assets/sprites/platforms.png" id="1_dt33o"]
+[ext_resource type="Texture2D" uid="uid://dho3t2eyb70b1" path="res://assets/pixel_adventure/Fan/On (24x8).png" id="2_175m6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nlgqw"]
-size = Vector2(32, 7)
+size = Vector2(64, 7)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wxl55"]
-atlas = ExtResource("2_lhsdm")
+atlas = ExtResource("2_175m6")
 region = Rect2(0, 0, 24, 8)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u648r"]
-atlas = ExtResource("2_lhsdm")
+atlas = ExtResource("2_175m6")
 region = Rect2(24, 0, 24, 8)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bjas4"]
-atlas = ExtResource("2_lhsdm")
+atlas = ExtResource("2_175m6")
 region = Rect2(48, 0, 24, 8)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7l5xm"]
-atlas = ExtResource("2_lhsdm")
+atlas = ExtResource("2_175m6")
 region = Rect2(72, 0, 24, 8)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3e31s"]
@@ -42,20 +42,24 @@ animations = [{
 "speed": 30.0
 }]
 
-[node name="yellowPlatform" type="AnimatableBody2D"]
+[node name="yellowPlatformWide" type="AnimatableBody2D" unique_id=184889801]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_nus4p")
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1585179111]
+position = Vector2(0.0020006, 0)
+scale = Vector2(2, 1)
+texture = ExtResource("1_dt33o")
 region_enabled = true
 region_rect = Rect2(16, 32, 32, 9)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1924915490]
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_nlgqw")
 one_way_collision = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=386788]
 position = Vector2(0, 7)
 rotation = 3.1415927
 sprite_frames = SubResource("SpriteFrames_3e31s")
 autoplay = "default"
+frame = 3
+frame_progress = 0.98711324
