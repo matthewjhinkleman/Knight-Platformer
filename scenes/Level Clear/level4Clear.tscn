@@ -1,13 +1,13 @@
-[gd_scene format=3 uid="uid://bf4u03wyy2yst"]
+[gd_scene format=3 uid="uid://b0va6r4qwwr3n"]
 
-[ext_resource type="Script" uid="uid://citpx8yae56om" path="res://scripts/Level/level_3_clear.gd" id="1_tvu8b"]
-[ext_resource type="Texture2D" uid="uid://b0lta5aqtxjaa" path="res://assets/sprites/world_tileset.png" id="2_xc2f4"]
-[ext_resource type="Texture2D" uid="uid://chx1yh4l8x606" path="res://assets/modified_by_me/yellow_cloud_white.png" id="3_j8rpg"]
-[ext_resource type="FontFile" uid="uid://bsx4lqbekysws" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="4_ubvpd"]
-[ext_resource type="FontFile" uid="uid://bomv61nevcs3s" path="res://assets/fonts/PixelOperator8.ttf" id="5_lceql"]
+[ext_resource type="Script" uid="uid://citpx8yae56om" path="res://scripts/Level/level_3_clear.gd" id="1_uf2wt"]
+[ext_resource type="Texture2D" uid="uid://b0lta5aqtxjaa" path="res://assets/sprites/world_tileset.png" id="2_b4dgj"]
+[ext_resource type="Texture2D" uid="uid://chx1yh4l8x606" path="res://assets/modified_by_me/yellow_cloud_white.png" id="3_pe4f3"]
+[ext_resource type="FontFile" uid="uid://bsx4lqbekysws" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="4_r3wem"]
+[ext_resource type="FontFile" uid="uid://bomv61nevcs3s" path="res://assets/fonts/PixelOperator8.ttf" id="5_rw1xg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nc5o4"]
-texture = ExtResource("2_xc2f4")
+texture = ExtResource("2_b4dgj")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -169,7 +169,7 @@ texture = ExtResource("2_xc2f4")
 2:4/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kpv14"]
-texture = ExtResource("3_j8rpg")
+texture = ExtResource("3_pe4f3")
 0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_nrkn1"]
@@ -184,7 +184,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_tvu8b")
+script = ExtResource("1_uf2wt")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=890960614]
 
@@ -210,9 +210,9 @@ alignment = 1
 z_index = 3
 layout_mode = 2
 size_flags_vertical = 7
-theme_override_fonts/font = ExtResource("4_ubvpd")
+theme_override_fonts/font = ExtResource("4_r3wem")
 theme_override_font_sizes/font_size = 32
-text = "Level 3 Clear!"
+text = "Level 4 Clear!"
 horizontal_alignment = 1
 vertical_alignment = 2
 
@@ -221,7 +221,7 @@ z_index = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 7
-theme_override_fonts/font = ExtResource("5_lceql")
+theme_override_fonts/font = ExtResource("5_rw1xg")
 theme_override_font_sizes/font_size = 24
 text = "Total Coins: 67
 "
@@ -233,7 +233,7 @@ z_index = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 7
-theme_override_fonts/font = ExtResource("5_lceql")
+theme_override_fonts/font = ExtResource("5_rw1xg")
 theme_override_font_sizes/font_size = 24
 text = "Level Coins: 75/75"
 horizontal_alignment = 1
@@ -242,7 +242,7 @@ horizontal_alignment = 1
 z_index = 1
 layout_mode = 2
 size_flags_vertical = 7
-theme_override_fonts/font = ExtResource("5_lceql")
+theme_override_fonts/font = ExtResource("5_rw1xg")
 theme_override_font_sizes/font_size = 24
 text = "Press START to continue
 
