@@ -189,7 +189,7 @@ script = ExtResource("1_tvu8b")
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=890960614]
 
 [node name="TileMap2" type="TileMap" parent="CanvasLayer" unique_id=1799858462]
-scale = Vector2(1.67, 1.67)
+scale = Vector2(2.67, 2.67)
 tile_set = SubResource("TileSet_nrkn1")
 format = 2
 layer_0/name = "Background"
