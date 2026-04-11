@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b0lta5aqtxjaa" path="res://assets/sprites/world_tileset.png" id="2_u3awl"]
 [ext_resource type="PackedScene" uid="uid://dn02o3cwidlgc" path="res://scenes/player.tscn" id="3_2ku1j"]
 [ext_resource type="PackedScene" uid="uid://csxdeo75bftoi" path="res://scenes/coin.tscn" id="4_f31uk"]
+[ext_resource type="Script" uid="uid://mh17ns20daod" path="res://scripts/camera_2d.gd" id="5_61u81"]
 [ext_resource type="PackedScene" uid="uid://c1a230skjekn6" path="res://scenes/Enemies & Traps/killzone.tscn" id="5_gnai3"]
 [ext_resource type="PackedScene" uid="uid://cg6wt5eq4ujwd" path="res://scenes/greenPlatform.tscn" id="6_i8kv5"]
 [ext_resource type="PackedScene" uid="uid://c7obbbiv7q8m6" path="res://scenes/Enemies & Traps/greenSlime.tscn" id="7_dxn3v"]
@@ -244,6 +245,7 @@ limit_top = -470
 limit_bottom = 80
 limit_smoothed = true
 position_smoothing_enabled = true
+script = ExtResource("5_61u81")
 
 [node name="Coins" type="Node" parent="." unique_id=1903798468]
 
